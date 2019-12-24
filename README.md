@@ -13,12 +13,10 @@ In order to get familiar with Linux one must have access to a Linux distribution
 
 # Distributions
 
-[Debian](http://debian.org/) It is the base distribution for Ubuntu, Linux Mint, Knoppix, etc. It uses [dpkg](https://en.wikipedia.org/wiki/Dpkg) package manager with .deb packages. There are many other .dpkg utilities which make it easy to install software on these Linux distributions. One such utility is [apt-get](https://linux.die.net/man/8/apt-get).
+* [Debian](http://debian.org/) It is the base distribution for Ubuntu, Linux Mint, Knoppix, etc. It uses [dpkg](https://en.wikipedia.org/wiki/Dpkg) package manager with .deb packages. There are many other .dpkg utilities which make it easy to install software on these Linux distributions. One such utility is [apt-get](https://linux.die.net/man/8/apt-get).
 
-Red-Hat Is a commercial distribution released by Red Hat Inc. It uses the RPM package manager(.rpm). Other distros that use this type of package management include Fedora, CentOS, Oracle Linux. There are also many frontends for .rpm, yum being one of the most popular.
-
-Slackware It is the oldest active Linux distribution, which is mainly a one man project. It uses the slackpkg package manager. Its aim is simplicity and stability; Because of its simplicity there are many distributions derived from it like ZenWalk, VectorLinux and Slax.
-
-Arch Linux It is a distribution using its own package manager named pacman. One particularity of this distribution is that it doesn't have scheduled release but uses the rolling release model. This means that you get the latest software when updating.
+* [Red-Hat](http://www.redhat.com/products/enterprise-linux/) Is a commercial distribution released by Red Hat Inc. It uses the [RPM package manager(.rpm)](http://en.wikipedia.org/wiki/RPM_Package_Manager). Other distros that use this type of package management include Fedora, CentOS, Oracle Linux. There are also many frontends for .rpm, [yum](http://en.wikipedia.org/wiki/Yellow_dog_Updater,_Modified) being one of the most popular.
+* [Slackware](http://www.slackware.com/) It is the oldest active Linux distribution, which is mainly a one man project. It uses the slackpkg package manager. Its aim is simplicity and stability; Because of its simplicity there are many distributions derived from it like ZenWalk, VectorLinux and Slax.
+* [Arch Linux](https://www.archlinux.org/) It is a distribution using its own package manager named [pacman](http://en.wikipedia.org/wiki/Pacman_(package_manager)). One particularity of this distribution is that it doesn't have scheduled release but uses the [rolling release model](http://en.wikipedia.org/wiki/Rolling_release). This means that you get the latest software when updating.
 
 <a name="fn1">1</a>: Linux wikipedia page https://en.wikipedia.org/wiki/Linux
