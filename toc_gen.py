@@ -19,7 +19,15 @@ def get_level(line):
 def print_toc_chapter(line,lvl_stack):
     line = line.replace('# ','')
     line = line.replace('#','')
-    print( ".".join([str(lvl) for lvl in lvl_stack]) + ' ' + line)
+
+    link = line.lower()
+    link = link.replace('/','')
+    link = link.replace('?','')
+    link = link.replace(' ','-')
+    #print( ".".join([str(lvl) for lvl in lvl_stack]) + ' ' + line)
+    level = len(lvl_stack) - 1
+    spaces_before = 2 * level
+    print(spaces_before*' '+'* ['+line+'](#'+link+')')
 
 
 f = open('final_toc.txt')
