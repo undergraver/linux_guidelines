@@ -1,0 +1,389 @@
+Source: http://www.kluger.ro/ro/main/detalii_curs/KLG120
+
+What is Linux?
+Unix and its Design Principles
+FSF and GNU
+GPL – General Public License
+The Linux Kernel
+Linux Kernel and Versioning
+Components of a Distribution
+Slackware
+SUSE Linux Products
+Debian
+Ubuntu
+Red Hat Linux Products
+Oracle Linux
+
+
+Login and Exploration
+Logging In
+Running Programs
+Interacting with Command Line
+Desktop Environments
+GNOME
+Starting X
+Gathering Login Session Info
+Gathering System Info
+uptime
+got root?
+Switching User Contexts
+sudo
+Help from Commands and Documentation
+whereis
+Getting Help Within the Graphical Desktop
+Getting Help with man & info
+
+
+Lab Tasks
+Login and Discovery
+Help with Commands
+Switching Users With su
+
+
+The Linux Filesystem
+Filesystem Support
+Unix/Linux Filesystem Features
+Filesystem Hierarchy Standard
+Navigating the Filesystem
+Displaying Directory Contents
+Filesystem Structures
+Determining Disk Usage With df and du
+Determining Disk Usage (GUI)
+Disk Usage with Quotas
+File Ownership
+Default Group Ownership
+File and Directory Permissions
+File Creation Permissions with umask
+SUID and SGID on files
+SGID and Sticky Bit on Directories
+Changing File Permissions
+User Private Group Scheme
+
+
+Lab Tasks
+Navigating Directories and Listing Files
+Disk and Filesystem Usage
+File and Directory Ownership and Permissions
+
+
+Manipulating Files
+Directory Manipulation
+File Manipulation
+Deleting and Creating Files
+Managing Files Graphically
+Drag and drop with Nautilus
+Physical Unix File Structure
+Filesystem Links
+File Extensions and Content
+Displaying Files
+Previewing Files
+Producing File Statistics
+Displaying Binary Files
+Searching the Filesystem
+Alternate Search Method
+
+
+Lab Tasks
+Manipulating Files and Directories
+File Examination & Search Commands
+
+
+Shell Basics
+Role of Command Shell
+Communication Channels
+File Redirection
+Piping Commands Together
+Filename Matching
+File Globbing and Wildcard Patterns
+Brace Expansion
+Shell and Environment Variables
+Key Environment Variables
+Which and Type
+General Quoting Rules
+Nesting Commands
+
+
+Lab Tasks
+Redirection and Pipes
+Wildcard File Matching
+Shell Variables
+Shell Meta-Characters
+Command Substitution
+
+
+Archiving and Compression
+Archives with tar
+Archives with cpio
+The gzip Compression Utility
+The bzip2 Compression Utility
+The XZ Compression Utility
+The PKZIP Archiving/Compression format
+GNOME File Roller
+
+Lab Tasks
+Archiving and Compression
+
+
+Text Processing
+Searching Inside Files
+The Streaming Editor
+Text Processing with Awk
+Replacing Text Characters
+Text Sorting
+Duplicate Removal Utility
+Extracting Columns of Text
+Combining Files and Merging Text
+Comparing File Changes
+
+Lab Tasks
+Processing Text Streams
+Text Processing
+
+
+Regular Expressions
+Regular Expression Overview
+Regular Expressions
+RE Character Classes
+Regex Quantifiers
+RE Parenthesis
+
+
+Lab Tasks
+Pattern Matching with Regular Expressions
+Extended Regular Expressions
+Using Regular Expressions With sed
+
+
+Text Editing
+Text Editing
+Pico/GNU Nano
+Pico/Nano Interface
+Nano configuration
+Pico/Nano Shortcuts
+vi and Vim
+Learning Vim
+Basic vi
+Intermediate vi
+
+
+Lab Tasks
+Text Editing with Nano
+Text Editing with Vim
+
+
+Messaging
+System Messaging Commands
+Controlling System Messaging
+Internet Relay Chat
+Instant Messenger Clients
+Electronic Mail
+Sending Email with sendmail
+Sending and Receiving Email with mailx
+Sending and Receiving Email with mutt
+Sending Email with Pine
+Evolution
+
+
+Lab Tasks
+Command Line Messaging
+Messaging with talkd
+Command Line Email
+Alpine
+
+
+Command Shells
+Shells
+Identifying the Shell
+Changing the Shell
+Configuration Files
+Script Execution
+Shell Prompts
+Bash: Bourne-Again Shell
+Bash: Configuration Files
+Bash: Command Line History
+Bash: Command Editing
+Bash: Command Completion
+Bash: "shortcuts"
+Bash: prompt
+Setting Resource Limits via ulimit
+
+
+Lab Tasks
+Linux Shells
+Bash History
+Aliases
+Bash Login Scripts
+The Z Shell
+
+
+Introduction to Shell Scripting
+Shell Script Strengths and Weaknesses
+Example Shell Script
+Positional Parameters
+Input & Output
+Doing Math
+Comparisons with test
+Exit Status
+Conditional Statements
+Flow Control: case
+The for Loop
+The while and until Loops
+
+
+Lab Tasks
+Writing a Shell Script
+
+
+Process Management and Job Control
+What is a Process?
+Process Lifecycle
+Process States
+Viewing Processes
+Signals
+Tools to Send Signals
+nohup and disown
+Managing Processes
+Tuning Process Scheduling
+Job Control Overview
+Job Control Commands
+Persistent Shell Sessions with Screen
+Using screen
+Advanced Screen
+
+
+Lab Tasks
+Job Control Basics
+Process Management Basics
+Screen Basics
+Using Screen Regions
+
+
+At and Cron
+Automating Tasks
+at/batch
+cron
+The crontab Command
+crontab Format
+/etc/cron.*/ Directories
+Anacron
+
+
+Lab Tasks
+Creating and Managing User Cron Jobs
+Adding System cron Jobs
+
+
+Managing Software
+Downloading with FTP
+FTP
+lftp
+Command Line Internet – Non-interactive
+Command Line Internet – Interactive
+Managing Software Dependencies
+Using the Yum command
+Using Yum history
+YUM package groups
+Configuring Yum
+yumdownloader
+Popular Yum Repositories
+Using the Zypper command
+Zypper Services and Catalogs
+The dselect & APT Frontends to dpkg
+Aptitude
+Configuring APT
+
+
+Lab Tasks
+Command Line File Transfers
+Using Yum
+Using Zypper
+Managing Yum Repositories
+Managing Zypper Repositories
+Using APT
+Adding an APT repository
+
+
+The Secure Shell (SSH)
+Secure Shell
+ssh and sshd Configuration
+Accessing Remote Shells
+Transferring Files
+Alternative sftp Clients
+SSH Key Management
+ssh-agent
+
+
+Lab Tasks
+Introduction to ssh and scp
+SSH Key-based User Authentication
+Using ssh-agent
+
+
+Mounting Filesystems & Managing Removable Media
+Filesystems Concept Review
+Mounting Filesystems
+NFS
+SMB
+Filesystem Table (/etc/fstab)
+AutoFS
+Removable Media
+
+
+Lab Tasks
+Accessing NFS Shares
+On-demand filesystem mounting with AutoFS
+
+
+Printing
+Legacy Print Systems
+Common UNIX Printing System
+Defining a Printer
+Standard Print Commands
+Format Conversion Utilities
+enscript and mpage
+
+
+Lab Tasks
+Printing
+Configuring Print Queues
+
+
+The X Window System
+The X Window System
+X Modularity
+X.Org Drivers
+Configuring X Manually
+Automatic X Configuration
+Xorg and Fonts
+Installing Fonts for Modern Applications
+Installing Fonts for Legacy Applications
+The X11 Protocol and Display Names
+Display Managers and Graphical Login
+Starting X Apps Automatically
+X Access Control
+Remote X Access (historical/insecure)
+Remote X Access (modern/secure)
+XDMCP
+Remote Graphical Access With VNC and RDP
+Specialized X Servers
+
+
+Lab Tasks
+Remote X with XDMCP
+Configure X Security
+Configure a VNC Server
+Configure a VNC Server
+Configure a VNC Server
+Launching X Apps Automatically
+Secure X
+
+
+Emacs
+Emacs
+The Emacs Interface
+Basic Emacs
+More Emacs Commands
+
+
+Lab Tasks
+Text Editing with Emacs
